@@ -139,7 +139,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🎉 Start Creating!
 
-Ready to make some epic memes? [**Try the live demo →**](https://bhwilkoff.github.io/meme-maker)
+Ready to make some epic memes? [**Try the live demo →**](https://bhwilkoff.github.io/meme-maker/meme_maker.html)
 
 ---
 
