@@ -116,7 +116,7 @@ The interface uses a vibrant, modern color palette:
 
 ```
 meme-maker/
-├── index.html          # Complete meme maker application
+├── meme_maker.html          # Complete meme maker application
 └── README.md          # This documentation
 ```
 
