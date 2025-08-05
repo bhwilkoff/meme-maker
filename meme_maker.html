@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #77BEF0 0%, #FFCB61 50%, #FF894F 100%);
             min-height: 100vh;
             padding: 20px;
         }
@@ -28,7 +28,7 @@
         }
 
         .header {
-            background: #2c3e50;
+            background: #77BEF0;
             color: white;
             text-align: center;
             padding: 30px;
@@ -58,7 +58,7 @@
         }
 
         .upload-area {
-            border: 3px dashed #3498db;
+            border: 3px dashed #77BEF0;
             border-radius: 10px;
             padding: 40px;
             text-align: center;
@@ -68,18 +68,18 @@
         }
 
         .upload-area:hover {
-            border-color: #2980b9;
-            background: #e3f2fd;
+            border-color: #FFCB61;
+            background: #fefcf8;
         }
 
         .upload-area.drag-over {
-            border-color: #27ae60;
-            background: #e8f5e8;
+            border-color: #FF894F;
+            background: #fff5f0;
         }
 
         .upload-icon {
             font-size: 3rem;
-            color: #3498db;
+            color: #77BEF0;
             margin-bottom: 15px;
         }
 
@@ -101,7 +101,7 @@
 
         label {
             font-weight: 600;
-            color: #2c3e50;
+            color: #77BEF0;
             font-size: 0.9rem;
         }
 
@@ -115,7 +115,7 @@
 
         input:focus, select:focus, textarea:focus {
             outline: none;
-            border-color: #3498db;
+            border-color: #77BEF0;
         }
 
         textarea {
@@ -138,7 +138,7 @@
 
         .canvas-container {
             position: relative;
-            border: 2px solid #ddd;
+            border: 2px solid #77BEF0;
             border-radius: 10px;
             overflow: hidden;
             background: #f8f9fa;
@@ -166,11 +166,11 @@
         }
 
         .text-overlay:hover {
-            border-color: #3498db;
+            border-color: #77BEF0;
         }
 
         .text-overlay.selected {
-            border-color: #e74c3c;
+            border-color: #EA5B6F;
         }
 
         .action-buttons {
@@ -190,32 +190,32 @@
         }
 
         .btn-primary {
-            background: #3498db;
+            background: #77BEF0;
             color: white;
         }
 
         .btn-primary:hover {
-            background: #2980b9;
+            background: #5fa8dc;
             transform: translateY(-2px);
         }
 
         .btn-success {
-            background: #27ae60;
+            background: #FFCB61;
             color: white;
         }
 
         .btn-success:hover {
-            background: #229954;
+            background: #e5b54a;
             transform: translateY(-2px);
         }
 
         .btn-secondary {
-            background: #95a5a6;
+            background: #FF894F;
             color: white;
         }
 
         .btn-secondary:hover {
-            background: #7f8c8d;
+            background: #e6773a;
         }
 
         .text-list {
@@ -243,7 +243,7 @@
         }
 
         .text-item.selected {
-            background: #3498db;
+            background: #77BEF0;
             color: white;
         }
 
@@ -260,7 +260,7 @@
         }
 
         .edit-btn {
-            background: #f39c12;
+            background: #FFCB61;
             color: white;
             border: none;
             border-radius: 4px;
@@ -275,11 +275,11 @@
         }
 
         .edit-btn:hover {
-            background: #e67e22;
+            background: #e5b54a;
         }
 
         .delete-btn {
-            background: #e74c3c;
+            background: #EA5B6F;
             color: white;
             border: none;
             border-radius: 4px;
@@ -294,7 +294,7 @@
         }
 
         .delete-btn:hover {
-            background: #c0392b;
+            background: #d94660;
         }
 
         @media (max-width: 768px) {
@@ -796,7 +796,7 @@
                         textX -= textWidth;
                     }
                     
-                    this.ctx.strokeStyle = '#3498db';
+                    this.ctx.strokeStyle = '#77BEF0';
                     this.ctx.lineWidth = 2;
                     this.ctx.setLineDash([5, 5]);
                     this.ctx.strokeRect(textX - 5, element.y - textHeight - 5, textWidth + 10, textHeight + 10);
